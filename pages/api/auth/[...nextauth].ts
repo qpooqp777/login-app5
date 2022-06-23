@@ -36,16 +36,16 @@ export default NextAuth({
     */
 
     LineProvider({
-        clientId: process.env.LINE_ID,
-        clientSecret: process.env.LINE_SECRET,
-        // clientId: '1657206241',
-        // clientSecret: 'a327f5e4be90d0c0ada69ba669894d3f',
+        // clientId: process.env.LINE_ID,
+        // clientSecret: process.env.LINE_SECRET,
+        clientId: '1657206241',
+        clientSecret: 'a327f5e4be90d0c0ada69ba669894d3f',
       }),
     GoogleProvider({
-      clientId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_SECRET ,
-      // clientId: '779385427801-5524515rc0kmlpp3rcnctrgrhjg7tp9o.apps.googleusercontent.com',
-      // clientSecret: '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',
+      // clientId: process.env.GOOGLE_ID,
+      // clientSecret: process.env.GOOGLE_SECRET ,
+      clientId: '779385427801-5524515rc0kmlpp3rcnctrgrhjg7tp9o.apps.googleusercontent.com',
+      clientSecret: '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',
     }),
   ],
 //   pages: {
